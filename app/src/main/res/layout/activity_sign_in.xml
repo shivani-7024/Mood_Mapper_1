@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mood_mapper_image"
+    tools:context=".SignInActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#8062D61A"
+        android:padding="5dp"
+        android:text=" Mood Mapper"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColorHint="#575555"
+        android:background="@drawable/style"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/style"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColorHint="#575555"
+        android:hint="Passward"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="20dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="#46BFEF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/style"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.264" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:background="#BFFFFFFF"
+        android:padding="5dp"
+        android:text="Visiting Place"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

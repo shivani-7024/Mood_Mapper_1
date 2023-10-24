@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "952694110752",
+    "project_id": "mood-mapper-fb335",
+    "storage_bucket": "mood-mapper-fb335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952694110752:android:7529562bdbe39530251a45",
+        "android_client_info": {
+          "package_name": "com.example.moodmapper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-aKum0qd6x5-vg00TMX-5R0Cv0lAAKO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
